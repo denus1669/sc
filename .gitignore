@@ -1,33 +1,49 @@
 ```
-# Unity specific ignores
+# Unity/C# specific ignores
+*.csproj.meta
+*.unity.meta
+*.prefab.meta
+*.asset.meta
+*.mat.meta
+*.anim.meta
+*.controller.meta
+*.meta
+
+# Build outputs
+Build/
+Builds/
 Library/
+Logs/
 Temp/
 Obj/
-Build/
-Logs/
-*.unityproj
-*.sln
-*.csproj
+
+# Visual Studio/Unity editor files
+.vs/
+.userprefs
+.sln.docstates
 *.user
 *.userprefs
-*.pidb
-*.booproj
-*.svd
-.TestResults/
-[UnityProjectName].tmp
-*.log
+*.unityproj.user
 
-# Visual Studio Code
-.vscode/
+# Test results
+TestResults/
 
-# Build artifacts
+# Compiled binaries
 *.dll
 *.exe
 *.pdb
 *.mdb
-*.ilk
-*.meta
 
-# Test related
-TestResults/
+# Packages
+Packages/
+package-lock.json
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
