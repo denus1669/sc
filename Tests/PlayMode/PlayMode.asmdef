@@ -4,9 +4,9 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Scripts",
         "CasinoScripts",
-        "CasinoTestInfrastructure"
+        "Unity.Netcode.Runtime",
+        "Unity.Netcode.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
